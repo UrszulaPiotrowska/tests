@@ -31,7 +31,7 @@ int main(){                     //Rozpoczęcie programu głównego
 }
 void F1(char tab[],int l,int sum,char k){       //Zadanie dla funkcji F1 oraz zmiennych podanych w nawiasie
 
-    for(int i=0;i<=i*l;i++){                    //Pętla for, która zwraca dane dla spełnionego warunku i<=i*l. 
+    for (int i=0;i<=i*l;i++){                    //Pętla for, która zwraca dane dla spełnionego warunku i<=i*l. 
         if (int(tab[i])!=0){                    //Pętla if, która wyświetla dane z kolejnych pozycji w tabeli tab jeżeli to miejsce jest inne niż 0
                 if (k!=','){                    //Pętla if, która sprawdza czy k nie jest równe ,
                 cout <<int(tab[i]);             //Jeżeli warunek jest spełniony, wypisuje dane z tab[i]
@@ -45,7 +45,7 @@ void F1(char tab[],int l,int sum,char k){       //Zadanie dla funkcji F1 oraz zm
             l=-1;                               //Wpisze do l wartość -1. Jest to po to, aby przerwać pętle for, kiedy skończą się znaki w tabeli tab
 
     }
-    cout<<endl;                                 //Przejście do kolejnej linii
+    cout << endl;                                 //Przejście do kolejnej linii
 }
 
 void F2(char tab[],int l,int sum,char k){       //Zadanie dla funkcji F2, które jest podobne do funkcji F1, ale z różnicą że wyświetla tylko takie, których modulo równe jest 0, oraz do zmiennej k przypisuje +
@@ -93,5 +93,5 @@ else if (k=','){                //Jeżeli poprzedni warunek pętli if nie jest s
 
 5. Prostszym sposobem byłoby użycie zmiast char tab[size], wykorzystanie zmiennej typu string. 
 Wówczas łatwo możemy określić rozmiar tabeli poprzez użycie funkcji length() oraz iterować pojedyncze znaki
-w pętlach bo string to tablica znaków.
+w pętlach bo string to tablica znaków...
 */
