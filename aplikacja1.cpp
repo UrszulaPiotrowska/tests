@@ -93,5 +93,5 @@ else if (k=','){                //Jeżeli poprzedni warunek pętli if nie jest s
 
 5. Prostszym sposobem byłoby użycie zmiast char tab[size], wykorzystanie zmiennej typu string. 
 Wówczas łatwo możemy określić rozmiar tabeli poprzez użycie funkcji length() oraz iterować pojedyncze znaki
-w pętlach bo string to tablica znaków...
+w pętlach bo string to tablica znaków.
 */
